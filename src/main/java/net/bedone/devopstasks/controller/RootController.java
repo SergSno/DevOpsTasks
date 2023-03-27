@@ -21,7 +21,7 @@ public class RootController {
     @ResponseBody
     public String GetMain() {
         StringBuilder s = new StringBuilder(String.format("""
-                <H1>This is a simple Java Spring boot application</H1>
+                <H1>This is a simple Java Spring boot application ver 1</H1>
                 <H2>Database connection parameters:</H2>
                 Url = <b>%s</b><br>
                 Username = <b>%s</b><br>
